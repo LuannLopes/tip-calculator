@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --primary-color: lightcoral;
+  --secondary-color: DimGrey;
+  --tertiary-color: Gainsboro;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+#container {
+  width: 360px;
+  height: 525px;
+  margin: 100px auto;
+  background: #F7F7F7;
+  /* box-shadow: 5px 5px 5px gray; */
+  border-radius: 20px;
+}
+
+.title {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+}
+
+.tipsForm {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.formInput {
+  width: 40px;
+  padding: 5px 5px 8px 8px;
+}
+
+.formSelect {
+  width: 180px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.formSubmit {
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background-color: black;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#totalTip {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
