@@ -2,7 +2,7 @@ function calculateTip(event) {
   event.preventDefault();
   let bill = document.getElementById("bill").value;
   let serviceQual = document.getElementById("service-quality").value;
-  let numOfPeople = document.getElementById("people").value;
+  let numOfPeople = document.getElementById("account-division").value;
 
   if ((bill == "") | (serviceQual == 0)) {
     alert("Por favor, preencha os valores");
@@ -19,7 +19,7 @@ function calculateTip(event) {
   let total = (bill * serviceQual) / numOfPeople;
   total = total.toFixed(2);
   document.getElementById("tip").innerHTML = total;
-  document.getElementById("tottalTip").style.display = "block";
+  document.getElementById("totalTip").style.display = "block";
 }
 document.getElementById("totalTip").style.display = "none";
 document.getElementById("each").style.display = "none";
